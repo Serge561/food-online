@@ -1,7 +1,6 @@
 <div class="user-account-nav user-account-sidebar">
   <div class="user-nav-list">
     <ul>
-      {% comment %}
       <li
         class="{% if '/vendorDashboard/' == request.path or '/vendor/' == request.path %}active{% endif %}"
       >
@@ -14,6 +13,7 @@
           ><i class="icon-building"></i>My Restaurant</a
         >
       </li>
+      {% comment %}
       <li class="{% if 'menu-builder' in request.path %}active{% endif %}">
         <a href="{% url 'menu_builder' %}"
           ><i class="icon-menu5"></i>Menu Builder</a
