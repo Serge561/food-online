@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "accounts",
     "vendor",
+    "menu",
 ]
 
 MIDDLEWARE = [
@@ -139,3 +140,5 @@ EMAIL_HOST_PASSWORD = config("EMAIL_HOST_PASSWORD")
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 DEFAULT_FROM_EMAIL = "foodOnline Marketplace <serge561958@gmail.com>"
+
+# YANDEX_API_KEY = "053fe5dc-530a-4bd4-b772-500d7fe4aff0"
